@@ -5,17 +5,27 @@ This repository contains a Jupyter Notebook that analyzes factors associated wit
 ## ATTENTION! Before running the analysis, you need to download the source data from the link indicated below and put the unpacked file called survey_results_public.csv into this project folder.
 
 ## Questions Addressed
-1. **Is there a premium to a formal degree?**
-   - Analyzes whether higher education levels (e.g., bachelor's, master's, or PhD) are associated with higher salaries.
+1. **What is the role of organization size in shaping compensation?**
+   - Investigates whether there is a premium to working in larger companies by analyzing mean and median salaries across different organization sizes.
 
-2. **Is there a premium to working in a larger company?**
-   - Investigates whether developers working in larger organizations earn more compared to those in smaller companies.
+2. **Is there a discount attached to remote work?**
+   - Examines whether remote workers earn less compared to in-office workers and explores the relationship between remote work and compensation.
 
-3. **Is there a premium for longer experience?**
-   - Examines the relationship between years of professional coding experience and compensation.
+3. **Is there a premium for experience and how much is it?**
+   - Analyzes the relationship between years of professional coding experience and salary, including the average premium for each additional year of experience.
 
-4. **Is there a premium to using AI?**
-   - Explores whether developers who use AI tools in their work earn more than those who do not.
+4. **What is the premium attached to advanced educational degrees (Bachelor, Master)?**
+   - Explores whether higher education levels (e.g., bachelor's, master's, or PhD) are associated with higher salaries.
+
+5. **Does the use of AI tools contribute to higher compensation?**
+   - Investigates whether developers who use AI tools in their work earn more than those who do not.
+
+6. **Is there a relationship between the variety of languages a developer worked with and their compensation?**
+   - Analyzes whether the richness of experience, defined as the number of programming languages a developer has worked with, correlates with higher salaries.
+
+7. **Can developer salaries be predicted using the above factors?**
+   - Builds a regression model to predict developer compensation based on factors such as years of experience, organization size, education level, country, and type of work.
+
 
 ## Methodology
 - The analysis uses descriptive statistics (mean and median salaries) to compare groups based on the factors above.
