@@ -4,6 +4,8 @@ This repository contains a Jupyter Notebook that analyzes factors associated wit
 
 The findings are presented in the form of a blog post here [link](https://medium.com/@just-some-thoughts/what-really-moves-programmer-pay-seven-data-driven-answers-62ab46a45752)
 
+The Jupyter notebook with the relevant calculations can be found in a public Github repo under the link [link](https://github.com/dosiichuk/stackoverflow_survey_analysis/tree/main)
+
 ## ATTENTION! Before running the analysis, you need to download the source data from the link indicated below and put the unpacked file called survey_results_public.csv into this project folder. You can download the data here [link](https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2023.zip) and then put it into the project folder. It is too large to fit in a repo.
 
 ## Questions Addressed
